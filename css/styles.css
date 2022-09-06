@@ -298,7 +298,7 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 5rem;
-    align-items: flex-end;
+    align-items: center;
   }
 }
 
