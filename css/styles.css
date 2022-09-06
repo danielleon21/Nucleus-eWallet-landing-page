@@ -168,6 +168,10 @@ img {
   color: var(--primary);
 }
 
+.navbar__link--white {
+  color: var(--white);
+}
+
 @media (min-width: 768px) {
   .navbar__link {
     color: var(--white);
@@ -366,4 +370,30 @@ img {
   font-weight: 700;
   text-align: right;
   color: var(--primary);
+}
+
+/* footer */
+
+.footer {
+  background-color: #5a30a0;
+  padding: 3rem 0;
+}
+
+@media (min-width: 768px) {
+  .footer__grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.footer__logo {
+  width: 20rem;
+  margin: 0 auto 4rem auto;
+}
+
+@media (min-width: 768px) {
+  .footer__logo {
+    margin: 0;
+  }
 }
